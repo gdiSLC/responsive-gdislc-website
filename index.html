@@ -6,61 +6,67 @@
 	<link rel="stylesheet" href="includes/css/styles.css">
 </head>
 <body>
-	<header>
-		<img src="includes/images/Head-Banner-1.jpg"/>
-		<div id="social-media">Social Media</div>
-		<button type="button" class="btn">Join Us</button>
-		<ul>
-			<li>Community Survey</li>
-			<li>Mentorship</li>
-			<li>Scholarship</li>
-			<li>Contact Us</li>
-		</ul>
-	</header>
-	<nav>
-		<ul>
-			<li>Get Involved
+	<div id="main_body">
+		<header>
+			<img src="includes/images/circle-gdi-logo-235w.png" id="gdi_logo" />
+			<div id="social_media">Social Media Logos</div>
+			<button id="join_us_header" type="button" class="btn">Join Us</button>
+			<ul id="quick_links">
+				<li>Community Survey</li>
+				<li>Mentorship</li>
+				<li>Scholarship</li>
+				<li>Contact Us</li>
+			</ul>
+		</header>
+		<div id="main_info">
+			<nav>
 				<ul>
-					<li>How You Can Help</li>
-					<li>Sponsor GDI SLC</li>
+					<li><a class="no_link">Get Involved</a>
+						<ul>
+							<li><a href="#">How You Can Help</a></li>
+							<li><a href="#">Sponsor Us</a></li>
+						</ul>
+					</li>
+					<li><a class="no_link">Connect</a>
+						<ul>
+							<li><a href="#">Local User Groups</a></li>
+							<li><a href="#">Women in Tech</a></li>
+							<li><a href="#">Tech Conferences</a></li>
+							<li><a href="#">Local Tech Events</a></li>
+						</ul>
+					</li>
+					<li><a class="no_link">Learn</a>
+						<ul>
+							<li><a href="#">Online Resources</a></li>
+							<li><a href="#">Kids STEM Resources</a></li>
+						</ul>
+					</li>
+					<li><a class="no_link">Work</a>
+						<ul>
+							<li><a href="#">Startup Support</a></li>
+							<li><a href="#">Freelancing Sites</a></li>
+							<li><a href="#">Jobsearching Sites</a></li>
+							<li><a href="#">Local Tech Companies</a></li>
+						</ul>
+					</li>
+					<li><a href="#">About</a></li>
 				</ul>
-			</li>
-			<li>Connect
-				<ul>
-					<li>Local User Groups</li>
-					<li>Women in Tech Organizations</li>
-					<li>Tech Conferences</li>
-					<li>Other Local Tech Events</li>
-				</ul>
-			</li>
-			<li>Learn
-				<ul>
-					<li>Online Resources</li>
-					<li>Kids Programming Resources</li>
-				</ul>
-			</li>
-			<li>Work
-				<ul>
-					<li>Startup Support</li>
-					<li>Freelancing Sites</li>
-					<li>Jobsearching Sites</li>
-					<li>Local Tech Companies and Their Languages</li>
-				</ul>
-			</li>
-			<li>About</li>
-		</ul>
-	</nav>
-	<section id="main content">
-		<p><strong>Want to learn how to code? Have a great idea? Don't be shy.</strong> <em>Develop it.</em></p>
-	</section>
-	<section id="events">
-		<div id="events-top">
-			<h1>Upcoming Events</h1>
-			<button type="button" class="btn">Join Our Meetup Group</button>
+			</nav>
+			<section id="main_content">
+				<p><strong><span id="tagline">Want to learn how to code? Have a great idea? Don't be shy.</span></strong> <em>Develop it.</em></p>
+			</section>
+			<section id="events">
+				<div id="events_top">
+					<h1>Upcoming Events</h1>
+					<button type="button" class="btn">Join Our Meetup Group</button>
+				</div>
+				<div id="events_list"></div>
+			</section>
 		</div>
-		<div id="events-list"></div>
-	</section>
-	<footer>
-	</footer>
+		<footer>
+		</footer>
+	</div>
+
+	<script src="includes/js/scripts.js"></script>
 </body>
 </html>
