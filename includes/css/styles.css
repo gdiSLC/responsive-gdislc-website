@@ -68,10 +68,11 @@ header {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #edab23;
   background-image: -webkit-linear-gradient(top, #edab23, #edab23);
   background-image: -moz-linear-gradient(top, #edab23, #edab23);
   background-image: -ms-linear-gradient(top, #edab23, #edab23);
@@ -191,8 +192,86 @@ nav ul {
 	float: left;
 }
 
-#events_top button{
+#events_top .btn{
 	width: 50%;
 	float: right;
 	margin-top: 10px;
 }
+
+#events_list{
+	clear:both;
+}
+
+article.event{
+	padding: 10px 5px;
+	border-bottom: 1px dotted #ccc;
+}
+
+article.event a{
+	color: #00a9b4;
+	text-decoration: none;
+}
+
+article.event a:hover, :visited{
+	color: #edab23;
+	text-decoration: none;
+}
+
+#events_first_col{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#events_second_col{
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+article.event span.left_side{
+	width:75%;display: inline-block;
+	line-height: 20px;
+}
+
+article.event span.event_name{
+  	font-family: "gothamBold",Verdana,Arial,serif;
+	font-weight: bold;
+	line-height: 16px;
+	padding-bottom: 5px;
+}
+
+article.event span.event_date{
+	font-size: 18px;
+}
+
+span.rsvp_btn a{
+  width:20%;display:inline-block;vertical-align:top;
+  background: #92BB44;
+  background-image: -webkit-linear-gradient(top, #92BB44, #92BB44);
+  background-image: -moz-linear-gradient(top, #92BB44, #92BB44);
+  background-image: -ms-linear-gradient(top, #92BB44, #92BB44);
+  background-image: -o-linear-gradient(top, #92BB44, #92BB44);
+  background-image: linear-gradient(to bottom, #92BB44, #92BB44);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "gothamBold",Verdana,Arial,serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+span.rsvp_btn a:hover {
+  background: #edab23;
+  background-image: -webkit-linear-gradient(top, #edab23, #edab23);
+  background-image: -moz-linear-gradient(top, #edab23, #edab23);
+  background-image: -ms-linear-gradient(top, #edab23, #edab23);
+  background-image: -o-linear-gradient(top, #edab23, #edab23);
+  background-image: linear-gradient(to bottom, #edab23, #edab23);
+  text-decoration: none;
+  color: #ffffff;
+} /* http://css3buttongenerator.com/ */
