@@ -3,6 +3,7 @@
 	<meta charset="utf-8">
 	<title>Girl Develop It SLC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="includes/css/styles.css">
 </head>
 <body>
@@ -52,23 +53,3 @@
 					<li><a href="#">About</a></li>
 				</ul>
 			</nav>
-			<section id="main_content">
-				<p><strong id="tagline">Want to learn how to code? Have a great idea? Don't be shy.</strong> <em>Develop it.</em></p>
-			</section>
-			<section id="events">
-				<div id="events_top">
-					<h1>Upcoming Events</h1>
-					<span type="button" class="btn"><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank">Join Our Meetup Group</a></span>
-				</div>
-				<div id="events_list"></div>
-			</section>
-		</div>
-	</div>
-	<footer>
-		Add Social Media Icons
-	</footer>
-
-    <script src="includes/js/jquery-1.11.1.min.js"></script>
-	<script src="includes/js/scripts.js"></script>
-</body>
-</html>
