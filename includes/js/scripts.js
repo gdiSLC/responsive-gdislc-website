@@ -9,7 +9,7 @@ $.ajax({
     dataType: 'jsonp',
     type: "GET",
     success: function (data) {
-    	console.log(data.results);
+    	//console.log(data.results);
       var classes = data.results;
     	if(classes.length > 0){
         var htmlToShow = '<section id="events_first_col">';
@@ -27,7 +27,7 @@ $.ajax({
         }
         htmlToShow += '</section>';
         $('#events_list').html(htmlToShow);
-        console.log(htmlToShow);
+        //console.log(htmlToShow);
       }else{
         alert('There are no events to display at this time.');
       }
