@@ -17,6 +17,10 @@ body {
 
 .bold{ font-family: gothamBold; font-weight: bold; }
 
+h2{ font-size: 18px; font-family: gothamBold; font-weight: bold; }
+h3{ display:inline; font-size: 15px; font-family: gothamBold; font-weight: bold; font-style: italic; }
+hr{ margin: 30px 0;}
+
 #main_body{
 	width: 1100px;
 	margin: 0 auto;
@@ -60,11 +64,6 @@ header {
 
 .btn a{
   background: #00a9b4;
-  background-image: -webkit-linear-gradient(top, #00a9b4, #00a9b4);
-  background-image: -moz-linear-gradient(top, #00a9b4, #00a9b4);
-  background-image: -ms-linear-gradient(top, #00a9b4, #00a9b4);
-  background-image: -o-linear-gradient(top, #00a9b4, #00a9b4);
-  background-image: linear-gradient(to bottom, #00a9b4, #00a9b4);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -74,17 +73,26 @@ header {
   padding: 10px 30px;
   text-decoration: none;
   text-align: center;
+	transition: background 0.25s;
+   	-moz-transition: background 0.25s;
+   	-webkit-transition: background 0.25s;
 }
 
-.btn a:hover {
+span.btn a:hover {
   background: #edab23;
-  background-image: -webkit-linear-gradient(top, #edab23, #edab23);
-  background-image: -moz-linear-gradient(top, #edab23, #edab23);
-  background-image: -ms-linear-gradient(top, #edab23, #edab23);
-  background-image: -o-linear-gradient(top, #edab23, #edab23);
-  background-image: linear-gradient(to bottom, #edab23, #edab23);
   text-decoration: none;
 } /* http://css3buttongenerator.com/ */
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
 
 #quick_links{
 	width:70%;
@@ -230,11 +238,6 @@ article.event a{
 	text-decoration: none;
 }
 
-article.event a:hover, :visited{
-	color: #edab23;
-	text-decoration: none;
-}
-
 #events_first_col{
 	width: 48%;
 	display: inline-block;
@@ -294,6 +297,10 @@ span.rsvp_btn a:hover {
   text-decoration: none;
   color: #ffffff;
 } /* http://css3buttongenerator.com/ */
+
+section.detailed_info{ line-height: 20px; margin: 0 0 0 10px; }
+
+.large_heading{ line-height: 30px; }
 
 footer{
 	background-color: #333333;

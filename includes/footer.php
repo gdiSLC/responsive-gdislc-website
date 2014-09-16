@@ -1,4 +1,8 @@
-<footer>
+
+		</div>
+	</div>
+
+	<footer>
 		<ul>
 			<li><i class="fa fa-calendar"></i></li>
 		</ul>
