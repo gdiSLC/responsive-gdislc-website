@@ -44,6 +44,7 @@ require(__DIR__.'/globals.php');
 						<ul>
 							<li><a href="<?=$MAINPATH?>">Online Resources</a></li>
 							<li><a href="<?=$MAINPATH?>">Kids STEM Resources</a></li>
+							<li><a href="<?=$MAINPATH?>pages/localbootcamps.php">Local Bootcamps</a></li>
 						</ul>
 					</li>
 					<li><a class="no_link">Work</a>

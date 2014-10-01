@@ -19,7 +19,7 @@ $.ajax({
             htmlToShow += '</section><section id="events_second_col">';
           }
           var meetupDate =  new Date(classes[i].time);
-          htmlToShow += '<article class="event"><span class="event_name"><a href="' + classes[i].event_url + '" target="_blank">' + classes[i].name + '</a><br></span>';
+          htmlToShow += '<article class="event"><span class="event_name"><a class="event" href="' + classes[i].event_url + '" target="_blank">' + classes[i].name + '</a><br></span>';
           htmlToShow += '<span class="left_side"><span class="event_date">' + meetupDate.toLocaleDateString() + '</span><br>';
           htmlToShow += venue_info(classes[i]) + ' @ ' + prettyDate2(classes[i].time) + '</span>';
           htmlToShow += '<span class="rsvp_btn"><a href="' + classes[i].event_url + '" target="_blank">RSVP</a></span>';
