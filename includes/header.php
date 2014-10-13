@@ -34,24 +34,25 @@ require(__DIR__.'/globals.php');
 					</li>
 					<li><a class="no_link">Connect</a>
 						<ul>
-							<li><a href="<?=$MAINPATH?>">Local User Groups</a></li>
-							<li><a href="<?=$MAINPATH?>">Women in Tech</a></li>
-							<li><a href="<?=$MAINPATH?>">Tech Conferences</a></li>
-							<li><a href="<?=$MAINPATH?>">Local Tech Events</a></li>
+							<li><a href="<?=$MAINPATH?>pages/local_user_groups.php">Local User Groups</a></li>
+							<li><a href="<?=$MAINPATH?>pages/women_in_tech.php">Women in Tech</a></li>
+							<li><a href="<?=$MAINPATH?>pages/tech_conferences.php">Tech Conferences</a></li>
+							<li><a href="<?=$MAINPATH?>pages/local_tech_events">Local Tech Events</a></li>
 						</ul>
 					</li>
 					<li><a class="no_link">Learn</a>
 						<ul>
-							<li><a href="<?=$MAINPATH?>">Online Resources</a></li>
-							<li><a href="<?=$MAINPATH?>">Kids STEM Resources</a></li>
+							<li><a href="<?=$MAINPATH?>pages/online_resources.php">Online Resources</a></li>
+							<li><a href="<?=$MAINPATH?>pages/kids_STEM.php">Kids STEM Resources</a></li>
+							<li><a href="<?=$MAINPATH?>pages/local_bootcamps.php">Local Bootcamps</a></li>
 						</ul>
 					</li>
 					<li><a class="no_link">Work</a>
 						<ul>
-							<li><a href="<?=$MAINPATH?>">Startup Support</a></li>
-							<li><a href="<?=$MAINPATH?>">Freelancing Sites</a></li>
-							<li><a href="<?=$MAINPATH?>">Jobsearching Sites</a></li>
-							<li><a href="<?=$MAINPATH?>">Local Tech Companies</a></li>
+							<!--<li><a href="<?=$MAINPATH?>pages/startup_support.php">Startup Support</a></li>-->
+							<li><a href="<?=$MAINPATH?>pages/freelancing.php">Freelancing Sites</a></li>
+							<li><a href="<?=$MAINPATH?>pages/jobsearching.php">Jobsearching Sites</a></li>
+							<li><a href="<?=$MAINPATH?>pages/local_tech_companies.php">Local Tech Companies</a></li>
 						</ul>
 					</li>
 					<li><a href="<?=$MAINPATH?>">About</a></li>
