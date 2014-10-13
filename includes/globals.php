@@ -1,4 +1,4 @@
 <?php
-$MAINPATH = '/responsive-gdislc-website/';
+$MAINPATH = '/~staciefarmer/responsive-gdislc-website/';
 
 ?>

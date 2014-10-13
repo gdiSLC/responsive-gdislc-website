@@ -1,6 +1,7 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
+<h1>Local Tech Companies</h1>
 
 <p>This is a list we've compiled of local companies divided by the main languages they use. Please add/modify/update/delete as needed. We also appreciate your help in making this page look so much nicer.
 	</p>

@@ -7,20 +7,25 @@ require(__DIR__.'/globals.php');
 	<meta charset="utf-8">
 	<title>Girl Develop It SLC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?=$MAINPATH?>includes/css/styles.css">
 </head>
 <body>
 	<div id="main_body">
 		<header>
 			<a href="<?=$MAINPATH?>index.php"><img src="<?=$MAINPATH?>includes/images/circle-gdi-logo-235w.png" id="gdi_logo" /></a>
-			<div id="social_media">Social Media Logos</div>
+			<ul class="social_media">
+				<li><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank"><i class="fa fa-calendar"></i></a></li>
+				<li><a href="https://twitter.com/gdiSLC" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/groups/gdislc/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+				<li><a href="http://www.linkedin.com/groups?gid=6630862" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
 			<span id="join_us_header" type="button" class="btn"><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank">Join Us</a></span>
 			<ul id="quick_links">
 				<li class="bold"><a href="https://docs.google.com/forms/d/1y-s1DiR4ecTPCPD5RK3q4RrwubZtmUzBSPUYyviBIxM/viewform" target="_blank">Community Survey</a></li>
-				<li><a href="<?=$MAINPATH?>" target="_blank">Mentorship (Create)</a></li>
-				<li><a href="https://docs.google.com/forms/d/1ZLITfyf81kV40_mdcj7PalCv_oxUjYvJSX2wPVV-Ppc/viewform" target="_blank">Scholarship</a></li>
-				<li><a href="<?=$MAINPATH?>" target="_blank">Contact Us (Create)</a></li>
+				<!--<li><a href="<?=$MAINPATH?>" target="_blank">Mentorship (Create)</a></li>-->
+				<li><a href="https://docs.google.com/forms/d/1ZLITfyf81kV40_mdcj7PalCv_oxUjYvJSX2wPVV-Ppc/viewform" target="_blank">Scholarships</a></li>
+				<!--<li><a href="<?=$MAINPATH?>" target="_blank">Contact Us (Create)</a></li>-->
 			</ul>
 		</header>
 		<div id="main_info">
@@ -51,10 +56,10 @@ require(__DIR__.'/globals.php');
 						<ul>
 							<!--<li><a href="<?=$MAINPATH?>pages/startup_support.php">Startup Support</a></li>-->
 							<li><a href="<?=$MAINPATH?>pages/freelancing.php">Freelancing Sites</a></li>
-							<li><a href="<?=$MAINPATH?>pages/jobsearching.php">Jobsearching Sites</a></li>
+							<li><a href="<?=$MAINPATH?>pages/jobsearching.php">Job Searching Sites</a></li>
 							<li><a href="<?=$MAINPATH?>pages/local_tech_companies.php">Local Tech Companies</a></li>
 						</ul>
 					</li>
-					<li><a href="<?=$MAINPATH?>">About</a></li>
+					<li><a href="<?=$MAINPATH?>pages/about.php">About</a></li>
 				</ul>
 			</nav>

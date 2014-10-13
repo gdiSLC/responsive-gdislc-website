@@ -3,7 +3,7 @@ require(__DIR__.'/../includes/header.php');
 ?>
 
 	<div class="section">
-		<h1>Programming Apps/Sites</h1>
+		<h1>Kids Programming Apps/Sites</h1>
 		<div class="item">
 			<a href="http://learn.code.org/" target="_blank"><img src="http://learn.code.org/assets/logo-469a65ec5bf3051b15822c03aa011e99.png" align="right" height="100" class="product_img" />Hour of Code (code.org)</a><br />This 20-hour course introduces core computer science and programming concepts. The course is designed for use in classrooms for grades K-8, but it is fun to learn at all ages.<br /><span class="bold">Ages: 5+<br />Price: Free</span>
 		</div>

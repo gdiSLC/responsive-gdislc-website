@@ -1,8 +1,7 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
-	<p>This is a list of local user groups divided by language. Please add/modify/update/delete as needed. We also appreciate your help in making this page look much nicer.
-	</p>
+	<h1>Local UserGroups</h1>
 
 	<p><h4>PHP</h4>
 		<ul>

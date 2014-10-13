@@ -1,6 +1,7 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
+	<h1>Job Searching Websites</h1>
 
 	<p>These are a few job searching sites we've found. Please add to them and help us make this page look awesome.
 	</p>

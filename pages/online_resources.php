@@ -1,7 +1,7 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
-
+	<h1>Online Resources</h1>
 
 	<p>These are a few online resources we've found. Please add to them and help us make this page look awesome.
 	</p>
