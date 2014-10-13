@@ -2,7 +2,7 @@
 require(__DIR__.'/../includes/header.php');
 ?>
 
-<h3>Where to find local tech events</h3>
+<h1>Where you can find local tech events</h1>
 	<p><a href="http://www.meetup.com/" target="_blank" rel="nofollow">Meetup.com</a> - search for 'programming' to find local groups<br />
 		Don't forget <a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank">Girl Develop It SLC</a>!</p>
 	<p><a href="http://utahgeekevents.com" target="_blank">Utah Geek Events</a></p>

@@ -19,13 +19,11 @@ body {
 
 h2{ font-size: 18px; font-family: gothamBold; font-weight: bold; }
 h3{ display:inline; font-size: 15px; font-family: gothamBold; font-weight: bold; font-style: italic; }
-hr{ margin: 30px 0;}
+hr{ margin: 30px 0; }
 
 #main_body{
 	width: 1100px;
 	margin: 0 auto;
-
-	/*border: 1px solid black;*/
 }
 
 ul { list-style: none; }
@@ -36,9 +34,19 @@ header {
 	width: 25%;
 	display: inline-block;
 	background-color: #fff;
+	color: #8B0036;
 
 	border-radius: 0 0 50px 50px;
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+
+header a{
+	color: #8B0036;
+	text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+	color: #F05B62;
 }
 
 #gdi_logo{
@@ -47,19 +55,23 @@ header {
 	margin: 20px auto;
 }
 
-#social_media{
+.social_media{
 	display: block;
-	width: 60%;
-	margin: 10px auto;
+	width: 70%;
+	margin: 30px auto;
+	padding: 0;
 	text-align: center;
-
-	border: 1px solid black;
+	font-size: 35px;
+	letter-spacing: 0.1em;
+}
+.social_media li { 
+	display: inline-block; 
 }
 
 #join_us_header{
 	display: block;
 	width: 50%;
-	margin: 30px auto 20px auto;
+	margin: 30px auto 30px auto;
 }
 
 .btn a{
@@ -99,23 +111,11 @@ span.btn a:hover {
 	margin:0 auto 20px auto;
 	padding: 0;
 	text-align: center;
-	color: #8B0036;
 	line-height: 20px;
-
-	/*border: 1px solid black;*/
 }
 
 #quick_links li{
 	padding: 5px 0;
-}
-
-#quick_links a{
-	color: #8B0036;
-	text-decoration: none;
-}
-
-#quick_links a:hover{
-	color: #F05B62;
 }
 
 
@@ -124,8 +124,6 @@ span.btn a:hover {
 	display: inline-block;
 	width: 74%;
 	vertical-align: top;
-
-	/*border: 1px solid purple;*/
 }
 
 nav {
@@ -305,9 +303,12 @@ section.detailed_info{ line-height: 20px; margin: 0 0 0 10px; }
 footer{
 	background-color: #333333;
 	margin: 40px 0 0 0;
-	padding: 20px 0;
+	padding: 5px 0;
 	text-align: center;
 	color: #edab23;
+	font-size: 35px;
 }
 
-.fa-calendar:before{content:"\f073"}
+footer a{
+	color: #edab23;
+}

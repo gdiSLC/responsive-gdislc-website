@@ -1,6 +1,7 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
+	<h1>Tech Conferences</h1>
 
 	<p>This is a list of tech conferences we've found. We've organized them by local and state. Please help us keep this page up-to-date and add new conferences as you hear about them.
 	<br /><br />

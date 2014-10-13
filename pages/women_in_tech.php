@@ -1,7 +1,7 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
-
+	<h1>Women in Tech Organizations</h1>
 
 	<p>This is a list of women in tech organizations we've compiled (local and not)
 	<br /><br />
