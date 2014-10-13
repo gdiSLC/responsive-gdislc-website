@@ -2,7 +2,6 @@
 require(__DIR__.'/../includes/header.php');
 ?>
 
-<body>
 	<p>This is a list of tech conferences we've found. We've organized them by local and state. Please help us keep this page up-to-date and add new conferences as you hear about them.
 	<br /><br />
 	Feel free to help us make this page look awesome!
@@ -42,7 +41,7 @@ require(__DIR__.'/../includes/header.php');
 	</p>
 	<hr>
 
-</body>
+
 <?php
 require(__DIR__.'/../includes/footer.php');
 ?>

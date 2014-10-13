@@ -1,12 +1,6 @@
 <?php
 require(__DIR__.'/../includes/header.php');
 ?>
-<head>
-	<title>Girl Develop It SLC - How You Can Help</title>
-	<link rel="stylesheet" href="includes/styles.css" />
-</head>
-
-<body>
 	<p>This is a list of local user groups divided by language. Please add/modify/update/delete as needed. We also appreciate your help in making this page look much nicer.
 	</p>
 
@@ -124,7 +118,6 @@ require(__DIR__.'/../includes/header.php');
 		</ul>
 	</p>
 
-</body>
 
 <?php
 require(__DIR__.'/../includes/footer.php');

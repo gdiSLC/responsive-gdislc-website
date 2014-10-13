@@ -2,7 +2,7 @@
 require(__DIR__.'/../includes/header.php');
 ?>
 
-<body>
+
 	<p>These are a few online resources we've found. Please add to them and help us make this page look awesome.
 	</p>
 
@@ -25,8 +25,6 @@ require(__DIR__.'/../includes/header.php');
 	</p>
 	<hr>
 
-</body>
-</html>
 
 <?php
 require(__DIR__.'/../includes/footer.php');

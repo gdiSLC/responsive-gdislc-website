@@ -9,7 +9,7 @@ require(__DIR__.'/../includes/header.php');
 	<hr>
 	<p>
 		<a href="http://www.devpointlabs.com/" target="_blank"><img src="<?=$MAINPATH?>includes/images/devpointlogo.png" alt="DevPoint Labs"/></a><br>
-		<h3><a class="event" href="http://www.devpointlabs.com" target="_blank">Dev Point Labs</a></h3><br><!--Ask if Stacie would like to change the class to something else-->
+		<h3><a class="teal_link" href="http://www.devpointlabs.com" target="_blank">Dev Point Labs</a></h3><br><!--Ask if Stacie would like to change the class to something else-->
 		In <h3>Salt Lake City</h3><br>
 		Program lasts <h3>11 weeks</h3><br>
 		Program costs <h3>$8500</h3><br>
@@ -17,7 +17,7 @@ require(__DIR__.'/../includes/header.php');
 	</p><hr>
 	<p>
 		<a href="http://www.devmounta.in/" target="_blank"><img src="<?=$MAINPATH?>includes/images/devmountainlogo.png" alt="DevMountain"/></a><br>
-		<h3><a class="event" href="http://www.devmounta.in/" target="_blank">DevMountain</a></h3>
+		<h3><a class="teal_link" href="http://www.devmounta.in/" target="_blank">DevMountain</a></h3>
 		<br>
 		In <h3>Provo</h3><br>
 		Program lasts <h3>12 weeks</h3><br>
@@ -26,7 +26,7 @@ require(__DIR__.'/../includes/header.php');
 	</p><hr>
 	<p>
 		<a href="http://www.dojodevcamp.com/" target="_blank"><img src="<?=$MAINPATH?>includes/images/dojodevcamplogo.jpg" alt="Dojo Dev Camp"/></a><br>
-		<h3><a class="event" href="http://dojodevcamp.com/" target="_blank">Dojo Dev Camp</a></h3>
+		<h3><a class="teal_link" href="http://dojodevcamp.com/" target="_blank">Dojo Dev Camp</a></h3>
 		<br>
 		In <h3>Provo</h3>
 		Program lasts <h3>9 weeks</h3><br>
