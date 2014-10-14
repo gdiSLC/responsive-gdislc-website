@@ -7,6 +7,7 @@ require(__DIR__.'/globals.php');
 	<meta charset="utf-8">
 	<title>Girl Develop It SLC</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="<?=$MAINPATH?>includes/images/favicon.ico">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?=$MAINPATH?>includes/css/styles.css">
 </head>
@@ -42,7 +43,7 @@ require(__DIR__.'/globals.php');
 							<li><a href="<?=$MAINPATH?>pages/local_user_groups.php">Local User Groups</a></li>
 							<li><a href="<?=$MAINPATH?>pages/women_in_tech.php">Women in Tech</a></li>
 							<li><a href="<?=$MAINPATH?>pages/tech_conferences.php">Tech Conferences</a></li>
-							<li><a href="<?=$MAINPATH?>pages/local_tech_events">Local Tech Events</a></li>
+							<li><a href="<?=$MAINPATH?>pages/local_tech_events.php">Local Tech Events</a></li>
 						</ul>
 					</li>
 					<li><a class="no_link">Learn</a>
