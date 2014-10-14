@@ -169,7 +169,7 @@ nav ul {
 			}
 		
 		nav ul li a {
-			display: block; padding: 25px 40px;
+			display: block; padding: 25px 39px;
 			color: #757575; text-decoration: none;
 		}
 
@@ -216,7 +216,7 @@ nav ul {
 #events_top .btn a{
 	width: 35%;
 	float: right;
-	margin: 10px 5px 0 0;
+	margin: 10px 15px 0 0;
 	font-size: 16px;
 	letter-spacing: 1px;
 }
