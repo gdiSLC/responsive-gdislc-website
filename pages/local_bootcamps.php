@@ -36,6 +36,12 @@ require(__DIR__.'/../includes/header.php');
 
 <!--Add sections for more information- who does a bootcamp, what to expect, alternatives, maybe some info on pros & cons -->
 	
+	
+	<!--<hr>
+	<p><h2>Ada Developers Academy</h2>
+		This is a tuition-free programming school just for women in Seattle. They have $1000 monthly stipends available. The program is "24 weeks of intensive in-class instruction, followed by up to six months of internship at a Puget Sound region tech company"<br /><br />
+		http://adadevelopersacademy.org/
+	</p>-->
 
 
 	
