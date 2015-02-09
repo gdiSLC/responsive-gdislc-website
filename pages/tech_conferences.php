@@ -7,12 +7,12 @@ require(__DIR__.'/../includes/header.php');
 		<ul class="links">
 			<li><a href="http://www.agileroots.com/" target="_blank" class="bold maroon_link">Agile Roots</a>
 				<ul><li>We believe in a different way of working: Empowered teams accomplishing amazing results. Workplaces filled with courage, laughter, and working software. True partnership between business professionals, technology professionals, and customers.
-					How do we get there? The rules are simple. It takes a lifetime to master them. We must do things differently. We must change our habits. We must continually reorient our thinking.
-					The right conferences are those which inspire and re-motivate us. We created Agile Roots to be the kind of conference we want to attend.</li></ul>
+					<span class="extra_info"><br><br>How do we get there? The rules are simple. It takes a lifetime to master them. We must do things differently. We must change our habits. We must continually reorient our thinking.<br><br>
+					The right conferences are those which inspire and re-motivate us. We created Agile Roots to be the kind of conference we want to attend.</span></li></ul>
 			</li>
 			<li><a href="http://www.openwest.org/" target="_blank" class="bold maroon_link">OpenWest</a>
-				<ul><li>Utah Open Source Foundation, a collaboration of volunteers from local user groups, held its first conference in 2006 to support and promote open-source software. The conference has grown since then, and so has its regional reach into the surrounding communities.
-				By 2012 we welcomed hundreds of participants from states throughout the Mountain West. We celebrated the 2013 Utah Open Source Conference by expanding it into a regional event, the first annual OpenWest Conference.</li></ul>
+				<ul><li>Utah Open Source Foundation, a collaboration of volunteers from local user groups, held its first conference in 2006 to support and promote open-source software.<span class="extra_info"><br><br> The conference has grown since then, and so has its regional reach into the surrounding communities.
+				By 2012 we welcomed hundreds of participants from states throughout the Mountain West. We celebrated the 2013 Utah Open Source Conference by expanding it into a regional event, the first annual OpenWest Conference.</span></li></ul>
 			</li>
 			<li><a href="http://ng-conf.org/" target="_blank" class="bold maroon_link">ng-conf</a>
 				<ul><li>AngularJS conference<li><span class="small_bold">Upcoming Conference:</span>
@@ -44,7 +44,7 @@ require(__DIR__.'/../includes/header.php');
 			
 
 			<li><a href="http://lesbianswhotech.org/" target="_blank" class="bold maroon_link">Lesbians Who Tech Summit</a>
-				<ul><li>The Lesbians Who Tech Summit is the only event focused on increasing visibility and tech participation in two historically underrepresented communities: the women’s and queer communities. This event will bring together hundreds of queer women in tech (and the people who love them), for the most unique technology conference ever. We will be highlighting incredible queer women who are the next generation of technical leaders, as well as the people who have paved the way.
+				<ul><li>The Lesbians Who Tech Summit is the only event focused on increasing visibility and tech participation in two historically underrepresented communities: the women’s and queer communities.<span class="extra_info"><br><br> This event will bring together hundreds of queer women in tech (and the people who love them), for the most unique technology conference ever. We will be highlighting incredible queer women who are the next generation of technical leaders, as well as the people who have paved the way.</span>
 					<li><span class="small_bold">Upcoming Summit:</span>
 						<ul><li><a href="http://lesbianswhotech.org/summit2015/" target="_blank" class="maroon_link">San Francisco, February 26 - March 1, 2015</a></li></ul>
 				</li></ul>
@@ -52,7 +52,7 @@ require(__DIR__.'/../includes/header.php');
 			
 
 			<li><a href="https://us.pycon.org/" target="_blank" class="bold maroon_link">PyCon</a>
-				<ul><li>PyCon is the largest annual gathering for the community using and developing the open-source Python programming language. It is produced and underwritten by the Python Software Foundation, the 501(c)(3) nonprofit organization dedicated to advancing and promoting Python. Through PyCon, the PSF advances its mission of growing the international community of Python programmers.
+				<ul><li>PyCon is the largest annual gathering for the community using and developing the open-source Python programming language.<span class="extra_info"><br><br> It is produced and underwritten by the Python Software Foundation, the 501(c)(3) nonprofit organization dedicated to advancing and promoting Python. Through PyCon, the PSF advances its mission of growing the international community of Python programmers.</span>
 					<li><span class="small_bold">Upcoming Conference:</span>
 						<ul><li><a href="https://us.pycon.org/2015/" target="_blank" class="maroon_link">Montreal, April 8-16, 2015</a></li></ul>
 				</li></ul>
@@ -60,7 +60,7 @@ require(__DIR__.'/../includes/header.php');
 			
 
 			<li><a href="http://shesgeeky.org/" target="_blank" class="bold maroon_link">She's Geeky</a>
-				<ul><li>She’s Geeky convenes to inspire women for the future, creating a space to connect women from diverse STEM communities. We work with and promote existing activities and organizations in regions around the country, inviting them all to meet at an interactive event called an UnConference where the agenda is created live at the event by the people in attendance.
+				<ul><li>She’s Geeky convenes to inspire women for the future, creating a space to connect women from diverse STEM communities.<span class="extra_info"><br><br> We work with and promote existing activities and organizations in regions around the country, inviting them all to meet at an interactive event called an UnConference where the agenda is created live at the event by the people in attendance.</span>
 					<li><span class="small_bold">Upcoming Unconferences:</span>
 						<ul><li>Bay Area, January 30 - February 1, 2015</li></ul>
 					</li></ul>
