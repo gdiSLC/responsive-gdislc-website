@@ -1,3 +1,41 @@
+$(document).ready(function(){
+    /** Accordion Menu for phone size devices **/
+    $('#cssmenu > ul > li:has(ul)').addClass("has-sub");
+
+    $('#cssmenu > ul > li > a').click(function() {
+
+        var checkElement = $(this).next();
+
+        $('#cssmenu li').removeClass('active');
+        $(this).closest('li').addClass('active');
+
+        if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+          $(this).closest('li').removeClass('active');
+          checkElement.slideUp('normal');
+        }
+
+        if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+          $('#cssmenu ul ul:visible').slideUp('normal').show();
+          checkElement.slideDown('normal');
+        }
+
+        if (checkElement.is('ul')) {
+          return false;
+        } else {
+          return true;
+        }
+    });
+
+    $(window).resize(function(){
+        //remove the display:none style each sub-menu that gets it attached after slideUp on phone sizes
+        var w = $(window).width();
+        if(w > 768 && $('#cssmenu ul li ul').is(':hidden')) {
+            $('#cssmenu ul li ul').removeAttr('style');
+        }
+    });
+});
+
+
 $.ajax({
     url: 'https://api.meetup.com/2/events',
     data: {
@@ -50,18 +88,3 @@ function prettyDate2(time){
     var localeSpecificTime = date.toLocaleTimeString();
     return localeSpecificTime.replace(/:\d+ /, ' ');
 }
-
-/*var htmlToShow = '';
-htmlToShow += '<section id="events_first_col">';
-htmlToShow += '<article class="event"><span class="event_name left_side"><a href="" target="_blank">' + 'Hack Night' + '</a><br></span><span class="left_side"><span class="event_date">' + '9/24/14' + '</span><br>' + 'Instructure @ 6:00pm' + '</span><span class="btn rsvp_btn">RSVP</span>';
-htmlToShow += '</article>';
-htmlToShow += '<article class="event"><span class="event_name left_side">' + 'Hack Night' + '<br></span><span class="left_side"><span class="event_date">' + '10/24/14' + '</span><br>' + 'Instructure @ 6:00pm' + '</span><span class="btn rsvp_btn">RSVP</span>';
-htmlToShow += '</article>';
-htmlToShow += '</section><section id="events_second_col">';
-htmlToShow += '<article class="event"><span class="event_name left_side">' + 'Hack Night' + '<br></span><span class="left_side"><span class="event_date">' + '11/24/14' + '</span><br>' + 'Instructure @ 6:00pm' + '</span><span class="btn rsvp_btn">RSVP</span>';
-htmlToShow += '</article>';
-htmlToShow += '<article class="event"><span class="event_name left_side">' + 'Hack Night' + '<br></span><span class="left_side"><span class="event_date">' + '12/24/14' + '</span><br>' + 'Instructure @ 6:00pm' + '</span><span class="btn rsvp_btn">RSVP</span>';
-htmlToShow += '</article>';
-htmlToShow += '</section>';
-
-$('#events_list').html(htmlToShow);*/

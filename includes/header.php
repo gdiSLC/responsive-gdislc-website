@@ -10,11 +10,12 @@ require(__DIR__.'/globals.php');
     <link rel="shortcut icon" href="<?=$MAINPATH?>includes/images/favicon.ico">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?=$MAINPATH?>includes/css/styles.css">
+    <link rel="stylesheet" href="<?=$MAINPATH?>includes/css/nav.css">
 </head>
 <body>
 	<div id="main_body">
 		<header>
-			<a href="<?=$MAINPATH?>index.php"><img src="<?=$MAINPATH?>includes/images/circle-gdi-logo-235w.png" id="gdi_logo" /></a>
+			<a href="<?=$MAINPATH?>index.php"><span class="bold" id="gdi_text">Girl Develop It SLC</span><img src="<?=$MAINPATH?>includes/images/circle-gdi-logo-235w.png" id="gdi_logo" /></a>
 			<ul class="social_media">
 				<li><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank"><i class="fa fa-calendar"></i></a></li>
 				<li><a href="https://twitter.com/gdiSLC" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -30,15 +31,15 @@ require(__DIR__.'/globals.php');
 			</ul>
 		</header>
 		<div id="main_info">
-			<nav>
+			<nav id="cssmenu">
 				<ul>
-					<li><a class="no_link">Get Involved</a>
+					<li><a class="no_link"><span>Get Involved</span></a>
 						<ul>
 							<li><a href="<?=$MAINPATH?>pages/howyoucanhelp.php">How You Can Help</a></li>
 							<li><a href="<?=$MAINPATH?>pages/sponsors.php">Sponsor Us</a></li>
 						</ul>
 					</li>
-					<li><a class="no_link">Connect</a>
+					<li><a class="no_link"><span>Connect</span></a>
 						<ul>
 							<li><a href="<?=$MAINPATH?>pages/local_user_groups.php">Local User Groups</a></li>
 							<li><a href="<?=$MAINPATH?>pages/women_in_tech.php">Women in Tech</a></li>
@@ -46,14 +47,14 @@ require(__DIR__.'/globals.php');
 							<li><a href="<?=$MAINPATH?>pages/local_tech_events.php">Local Tech Events</a></li>
 						</ul>
 					</li>
-					<li><a class="no_link">Learn</a>
+					<li><a class="no_link"><span>Learn</span></a>
 						<ul>
 							<li><a href="<?=$MAINPATH?>pages/online_resources.php">Online Resources</a></li>
 							<li><a href="<?=$MAINPATH?>pages/kids_STEM.php">Kids STEM Resources</a></li>
 							<li><a href="<?=$MAINPATH?>pages/local_bootcamps.php">Local Bootcamps</a></li>
 						</ul>
 					</li>
-					<li><a class="no_link">Work</a>
+					<li><a class="no_link"><span>Work</span></a>
 						<ul>
 							<!--<li><a href="<?=$MAINPATH?>pages/startup_support.php">Startup Support</a></li>-->
 							<li><a href="<?=$MAINPATH?>pages/freelancing.php">Freelancing Sites</a></li>
@@ -61,6 +62,6 @@ require(__DIR__.'/globals.php');
 							<li><a href="<?=$MAINPATH?>pages/local_tech_companies.php">Local Tech Companies</a></li>
 						</ul>
 					</li>
-					<li><a href="<?=$MAINPATH?>pages/about.php">About</a></li>
+					<li><a href="<?=$MAINPATH?>pages/about.php"><span>About</span></a></li>
 				</ul>
 			</nav>
