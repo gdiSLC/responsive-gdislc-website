@@ -26,7 +26,7 @@ require(__DIR__.'/globals.php');
 			<ul id="quick_links">
 				<li class="bold"><a href="https://docs.google.com/forms/d/1NMKQmjv1rkwfyQovEnzfA12kedAraMMZoXhTUGZygHk/viewform" target="_blank">Community Survey</a></li>
 				<!--<li><a href="<?=$MAINPATH?>" target="_blank">Mentorship (Create)</a></li>-->
-				<li><a href="https://docs.google.com/forms/d/1ZLITfyf81kV40_mdcj7PalCv_oxUjYvJSX2wPVV-Ppc/viewform" target="_blank">Scholarships</a></li>
+				<li><a href="https://docs.google.com/a/girldevelopit.com/forms/d/1QvhrlamutZIP8mmBldHDkPEeGwcS4UQuzOvDPlxMW84/viewform" target="_blank">Scholarships</a></li>
 				<!--<li><a href="<?=$MAINPATH?>" target="_blank">Contact Us (Create)</a></li>-->
 			</ul>
 		</header>
