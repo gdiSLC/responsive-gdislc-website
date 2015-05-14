@@ -24,7 +24,7 @@ require(__DIR__.'/globals.php');
 			</ul>
 			<span id="join_us_header" type="button" class="btn"><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank">Join Us</a></span>
 			<ul id="quick_links">
-				<li class="bold"><a href="http://bit.ly/1EtjsYb" target="_blank">Community Survey</a></li>
+				<li class="bold"><a href="https://docs.google.com/forms/d/1NMKQmjv1rkwfyQovEnzfA12kedAraMMZoXhTUGZygHk/viewform" target="_blank">Community Survey</a></li>
 				<!--<li><a href="<?=$MAINPATH?>" target="_blank">Mentorship (Create)</a></li>-->
 				<li><a href="https://docs.google.com/forms/d/1ZLITfyf81kV40_mdcj7PalCv_oxUjYvJSX2wPVV-Ppc/viewform" target="_blank">Scholarships</a></li>
 				<!--<li><a href="<?=$MAINPATH?>" target="_blank">Contact Us (Create)</a></li>-->
