@@ -11,11 +11,11 @@ require(__DIR__.'/../includes/header.php');
 		<h3>Estimated Commitment:</h3> 5-10 hours/month
 	</p>
 	<hr>
-	<p><h2>Marketing & Advertising</h2>
+	<!--<p><h2>Marketing & Advertising</h2>
 		We are looking for anyone who is interested in helping us in this area. We would love to have someone manage our social media accounts (Facebook, Twitter) and to work with event hosts to figure out the best ways to advertise their events. This is a great way to help spread the word and to gain valuable experience for your resume!<br><br>
 		<h3>Estimated Commitment:</h3> 4-6 hours/month
 	</p>
-	<hr>
+	<hr>-->
 	<p><h2>Mentorship Program</h2>
 		Jillaire is our current Mentorship Program Director. She would love to have your help in reaching out to mentors, gathering information from mentees, and keeping track of how their progress is going.<br><br>
 		<h3>Estimated Commitment:</h3> 2-3 hours/month
