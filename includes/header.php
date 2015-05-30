@@ -49,16 +49,16 @@ require(__DIR__.'/globals.php');
 					</li>
 					<li><a class="no_link"><span>Learn</span></a>
 						<ul>
-							<li><a href="<?=$MAINPATH?>pages/online_resources.php">Online Resources</a></li>
+							<!--<li><a href="<?=$MAINPATH?>pages/online_resources.php">Online Resources</a></li>-->
 							<li><a href="<?=$MAINPATH?>pages/kids_STEM.php">Kids STEM Resources</a></li>
-							<li><a href="<?=$MAINPATH?>pages/local_bootcamps.php">Local Bootcamps</a></li>
+							<!--<li><a href="<?=$MAINPATH?>pages/local_bootcamps.php">Local Bootcamps</a></li>-->
 						</ul>
 					</li>
 					<li><a class="no_link"><span>Work</span></a>
 						<ul>
 							<!--<li><a href="<?=$MAINPATH?>pages/startup_support.php">Startup Support</a></li>-->
-							<li><a href="<?=$MAINPATH?>pages/freelancing.php">Freelancing Sites</a></li>
-							<li><a href="<?=$MAINPATH?>pages/jobsearching.php">Job Searching Sites</a></li>
+							<!--<li><a href="<?=$MAINPATH?>pages/freelancing.php">Freelancing Sites</a></li>-->
+							<!--<li><a href="<?=$MAINPATH?>pages/jobsearching.php">Job Searching Sites</a></li>-->
 							<li><a href="<?=$MAINPATH?>pages/local_tech_companies.php">Local Tech Companies</a></li>
 						</ul>
 					</li>
