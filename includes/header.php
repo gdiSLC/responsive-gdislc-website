@@ -19,7 +19,7 @@ require(__DIR__.'/globals.php');
 			<ul class="social_media">
 				<li><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank"><i class="fa fa-calendar"></i></a></li>
 				<li><a href="https://twitter.com/gdiSLC" target="_blank"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://www.facebook.com/groups/gdislc/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+				<li><a href="https://www.facebook.com/gdislc" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
 				<li><a href="http://www.linkedin.com/groups?gid=6630862" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
 			<span id="join_us_header" type="button" class="btn"><a href="http://www.meetup.com/Girl-Develop-It-Salt-Lake-City/" target="_blank">Join Us</a></span>
@@ -41,7 +41,7 @@ require(__DIR__.'/globals.php');
 					</li>
 					<li><a class="no_link"><span>Connect</span></a>
 						<ul>
-							<li><a href="<?=$MAINPATH?>pages/local_user_groups.php">Local User Groups</a></li>
+							<!--<li><a href="<?=$MAINPATH?>pages/local_user_groups.php">Local User Groups</a></li>-->
 							<li><a href="<?=$MAINPATH?>pages/women_in_tech.php">Women in Tech</a></li>
 							<li><a href="<?=$MAINPATH?>pages/tech_conferences.php">Tech Conferences</a></li>
 							<li><a href="<?=$MAINPATH?>pages/local_tech_events.php">Local Tech Events</a></li>
