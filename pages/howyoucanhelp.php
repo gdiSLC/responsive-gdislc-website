@@ -4,10 +4,11 @@ require(__DIR__.'/../includes/header.php');
 
 <section id="howtohelp" class="detailed_info">
 	<h1>Want to help, but you're not sure how? <span class="bold">Start here!</span></h1>
+	<p>Check out a list of our <a href="https://docs.google.com/spreadsheets/d/1JdcpQL8TrUooVGcBp2fx5JzzJojUJoPd4dFOTywmWgA" target="_blank">Current Volunteer Opportunities</a></p>
 
 	<hr>
 	<p><h2>Teacher Coordinator</h2>
-		Amber T. is our Class Coordinator. She'd love to have your help with meeting new teachers, planning course curriculum, and making sure everything is in place for our classes.<br><br>
+		Stacie is our Class Coordinator. She'd love to have your help with meeting new teachers, planning course curriculum, and making sure everything is in place for our classes.<br><br>
 		<h3>Estimated Commitment:</h3> 5-10 hours/month
 	</p>
 	<hr>
@@ -16,8 +17,8 @@ require(__DIR__.'/../includes/header.php');
 		<h3>Estimated Commitment:</h3> 4-6 hours/month
 	</p>
 	<hr>-->
-	<p><h2>Mentorship Program</h2>
-		Jillaire is our current Mentorship Program Director. She would love to have your help in reaching out to mentors, gathering information from mentees, and keeping track of how their progress is going.<br><br>
+	<p><h2>Mentorship Program Director</h2>
+		Want to help us create a mentorship program? We would love to have your help in creating a program, reaching out to mentors, gathering information from mentees, and keeping track of how their progress is going.<br><br>
 		<h3>Estimated Commitment:</h3> 2-3 hours/month
 	</p>
 	<hr>
@@ -28,6 +29,11 @@ require(__DIR__.'/../includes/header.php');
 	<hr>
 	<p><h2>Conference Booths</h2>
 		Help us spread the word! In this role, you'll help us find local conferences that are aligned with GDI's mission and organize booths.<br><br>
+		<h3>Estimated Commitment:</h3> 3-4 hours/month (may vary)
+	</p>
+	<hr>
+	<p><h2>Teachers/TAs/Mentors</h2>
+		Interested in teaching, TAing, or mentoring? <a href="http://girldevelopitslc.com/volunteers/interest_survey/" target="_blank">Let us know you're interested</a> and we'll contact you with any upcoming opportunities.<br><br>
 		<h3>Estimated Commitment:</h3> 3-4 hours/month (may vary)
 	</p>
 
