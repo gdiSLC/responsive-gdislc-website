@@ -27,7 +27,6 @@ require(__DIR__.'/globals.php');
 				<li class="bold"><a href="<?=$MAINPATH?>pages/howyoucanhelp.php">How You Can Help</a></li>
 				<li><a href="<?=$MAINPATH?>pages/sponsors.php">Sponsor Us</a></li>
 				<li><a href="<?=$MAINPATH?>pages/about.php">About GDI SLC</a></li>
-				<li><a href="http://bit.ly/1GLhTtL" target="_blank">Google Calendar</a></li>
 				<li><a href="https://www.pinterest.com/gdiSLC/" target="_blank">GDI SLC on Pinterest!</a></li>
 				<li><a href="https://docs.google.com/a/girldevelopit.com/forms/d/1QvhrlamutZIP8mmBldHDkPEeGwcS4UQuzOvDPlxMW84/viewform" target="_blank">Scholarship Application</a></li>
 			</ul>
