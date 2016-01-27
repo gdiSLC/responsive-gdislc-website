@@ -14,6 +14,11 @@
 
     <script src="<?=$MAINPATH?>includes/js/jquery-1.11.1.min.js"></script>
 	<script src="<?=$MAINPATH?>includes/js/scripts.js"></script>
+	<?php
+		if (basename($_SERVER['PHP_SELF']) === 'index.php') {
+			echo '<script src="' . $MAINPATH . 'includes/js/meetup_scripts.js"></script>';
+		}
+	?>
 	
 </body>
 </html>
