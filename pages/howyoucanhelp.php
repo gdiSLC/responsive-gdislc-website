@@ -33,34 +33,9 @@ require(__DIR__.'/../includes/header.php');
 	</p>
 	<hr>
 	<p><h2>Teachers/TAs/Mentors</h2>
-		Interested in teaching, TAing, or mentoring? <a href="http://girldevelopitslc.com/volunteers/interest_survey/" target="_blank">Let us know you're interested</a> and we'll contact you with any upcoming opportunities.<br><br>
+		Interested in teaching, TAing, or mentoring? <a href="mailto:saltlakecity@girldevelopit.com">Let us know you're interested</a> and we'll contact you with any upcoming opportunities.<br><br>
 		<h3>Estimated Commitment:</h3> 3-4 hours/month (may vary)
 	</p>
-
-
-	<!--<p><h2>Guest Speakers</h2>
-		Finding speakers & creating events
-	</p>
-	<hr>
-	<p><h4>Internships</h4>
-		Create an efficient way to keep track of companies with internship opportunities so it's easy for members to access. Keep updated with newest info.
-		<br /><br />
-		Current known companies:
-		<ul>
-			<li>Discover Card</li>
-			<li>ancestry.com</li>
-			<li>Instructure</li>
-		</ul>
-	</p>
-	<hr>
-	<p><h4>Code & Coffee's</h4>
-		Finding space & creating events
-	</p>
-	<hr>
-	<p><h4>Feminist Hackerspace</h4>
-		Work creatively to figure out how we can find and create our own feminist hackerspace. We also want to start our own tech book library and would love a great hackerspace to store this. Great article about it - http://modelviewculture.com/pieces/the-rise-of-feminist-hackerspaces-and-how-to-make-your-own
-		More links - http://seattleattic.com/ & http://mothership.hackermoms.org/ & http://hackerspaces.org/wiki/Design_Patterns
-	</p>-->
 </section>
 
 <?php
