@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 320px;
+  /*width: 320px;*/
   margin: 0 auto;
 	font-family: gothamBook, Helvetica, Verdana, Arial;
 	box-sizing: border-box;
@@ -214,7 +214,12 @@ span.btn a:hover {
   }
 }
 
+#main_content, #events {
+  padding: 0 10px;
+}
+
 #main_content p{
+  max-width: 100%;
   margin: 3% 0;
   line-height: 1.3em;
 }
@@ -235,7 +240,7 @@ span.btn a:hover {
 }
 
 #events_top .btn{
-  width: 88%;
+  width: 92%;
   margin: 5% auto;
   display: block;
 }
