@@ -8,7 +8,7 @@ require(__DIR__.'/../includes/header.php');
 
 	<hr>
 	<p><h2>Teacher Coordinator</h2>
-		Stacie is our Class Coordinator. She'd love to have your help with meeting new teachers, planning course curriculum, and making sure everything is in place for our classes.<br><br>
+		Amanda is our Class Coordinator. She'd love to have your help with meeting new teachers, planning course curriculum, and making sure everything is in place for our classes.<br><br>
 		<h3>Estimated Commitment:</h3> 5-10 hours/month
 	</p>
 	<hr>
